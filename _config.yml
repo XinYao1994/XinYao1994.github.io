@@ -15,20 +15,29 @@ avatar: https://avatars0.githubusercontent.com/u/12944608?s=60&v=4
 # Flags below are optional
 #
 
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 52bbb620d9680fd85254                            #生成的clientID
+  clientSecret: d92cec378527800b0816d1bdd26dc71eb5dd0ccd    #生成的clientSecret
+  repo: XinYao1994.github.io    #仓库名称
+  owner: XinYao1994    #github用户名
+  admin: XinYao1994
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: https://github.com/XinYao1994
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: # 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: # channel/<your_long_string> or user/<user-na me>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -37,7 +46,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-126298955-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
